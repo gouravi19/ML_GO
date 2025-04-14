@@ -1,0 +1,52 @@
+
+.hero{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    h1{
+        font-size: 5rem;
+        margin-bottom: 0;
+       }
+
+    button{
+        border: 0;
+        text-decoration: 0;
+        font-size: 2 rem;
+        background-color: green;
+        border-radius: 5%;
+       height: 6vh;
+       width: 10vw;
+       color: white;
+    }
+    h3{
+    font-size: 2rem;
+    }
+}
+.content_div{
+    height: 40vh;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+
+.image_div{
+    height: 90%;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    img{
+        padding-top: 5vh;
+        height: 100%;
+         width: 100%;
+    }
+}
+
+.green{
+    color: green;
+  }
