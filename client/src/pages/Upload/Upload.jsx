@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './upload.css';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../../components/Navbar/Navbar';
 
 export default function Upload() {
   const [image, setImage] = useState(null);
@@ -49,7 +50,9 @@ export default function Upload() {
     }
   };
 
-  return (
+  return ( 
+    <> 
+     <Navbar/>
     <div className="upload-container">
       <h2>Upload an Image for Analysis</h2>
 
@@ -66,5 +69,6 @@ export default function Upload() {
       {/* Analyze button */}
       <button onClick={handleUpload}>Analyze</button>
     </div>
+    </>
   );
 }
